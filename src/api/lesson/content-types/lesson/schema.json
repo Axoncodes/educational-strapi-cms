@@ -39,11 +39,15 @@
     "Slug": {
       "type": "string"
     },
-    "tags": {
+    "Previous": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tag.tag",
-      "mappedBy": "lesson"
+      "relation": "oneToOne",
+      "target": "api::lesson.lesson"
+    },
+    "Next": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lesson.lesson"
     }
   }
 }

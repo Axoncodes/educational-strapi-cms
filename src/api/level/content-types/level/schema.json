@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "levels",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "Tag"
+    "singularName": "level",
+    "pluralName": "levels",
+    "displayName": "Level"
   },
   "options": {
     "draftAndPublish": true
