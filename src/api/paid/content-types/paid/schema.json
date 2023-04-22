@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paids",
+  "info": {
+    "singularName": "paid",
+    "pluralName": "paids",
+    "displayName": "Paid"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}
