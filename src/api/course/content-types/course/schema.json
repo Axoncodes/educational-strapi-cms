@@ -35,6 +35,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::level.level"
+    },
+    "paid": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::paid.paid"
     }
   }
 }
