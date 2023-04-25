@@ -9,7 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi",
     "export": "strapi export --file=backup",
-    "import": "npm run strapi import -- -f backup.tar.gz.enc"
+    "import": "npm run strapi import -- -f backup.tar.gz.enc",
+    "cs": "config-sync"
   },
   "dependencies": {
     "@strapi/plugin-documentation": "^4.9.0",
@@ -17,7 +18,8 @@
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "^4.9.1",
     "@strapi/strapi": "^4.9.1",
-    "pg": "^8.10.0"
+    "pg": "^8.10.0",
+    "strapi-plugin-config-sync": "^1.1.1"
   },
   "author": {
     "name": "A Strapi developer"
