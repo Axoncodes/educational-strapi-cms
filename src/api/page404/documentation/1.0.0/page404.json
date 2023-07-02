@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Page404ListResponse"
+                "$ref": "#/components/schemas/Page404Response"
               }
             }
           }

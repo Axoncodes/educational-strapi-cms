@@ -1,5 +1,5 @@
 {
-  "/contact": {
+  "/footer": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContactResponse"
+                "$ref": "#/components/schemas/FooterResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Contact"
+        "Footer"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/contact"
+      "operationId": "get/footer"
     },
     "put": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ContactResponse"
+                "$ref": "#/components/schemas/FooterResponse"
               }
             }
           }
@@ -235,16 +235,16 @@
         }
       },
       "tags": [
-        "Contact"
+        "Footer"
       ],
       "parameters": [],
-      "operationId": "put/contact",
+      "operationId": "put/footer",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ContactRequest"
+              "$ref": "#/components/schemas/FooterRequest"
             }
           }
         }
@@ -315,10 +315,10 @@
         }
       },
       "tags": [
-        "Contact"
+        "Footer"
       ],
       "parameters": [],
-      "operationId": "delete/contact"
+      "operationId": "delete/footer"
     }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "short_description": {
+      "type": "text"
+    },
+    "socialmedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.contact-emaillist"
+    },
+    "socket": {
+      "type": "text"
+    },
+    "Lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contact-emaillist"
+    }
+  }
+}
