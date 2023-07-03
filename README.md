@@ -1,7 +1,7 @@
 # Modifications
 This strapi cms is modified to
-- Store media files with the original name (rather than renaming the files that was to prevent duplications)
-
+- Stores media files with the original name (rather than renaming the files that was to prevent duplications)
+- Stores media files in the physical directory as well
 
 # 🚀 Getting started with Strapi
 
