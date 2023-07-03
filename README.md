@@ -2,6 +2,7 @@
 This strapi cms is modified to
 - Stores media files with the original name (rather than renaming the files that was to prevent duplications)
 - Stores media files in the physical directory as well
+- the robots.txt is set to disallow any search engine traffic but you can modify it at /public/robots.txt
 
 # 🚀 Getting started with Strapi
 
